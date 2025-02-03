@@ -2957,6 +2957,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 59.69) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10feeb0f-5aab-4224-a92a-7dfe1d70ef79")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 160.02 78.74)
 		)
 		(stroke
@@ -2977,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 34.29) (xy 165.1 63.5)
+			(xy 135.89 34.29) (xy 135.89 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 40.64) (xy 146.05 40.64)
+			(xy 104.14 40.64) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3487,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 34.29) (xy 165.1 34.29)
+			(xy 101.6 34.29) (xy 135.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 63.5) (xy 121.92 63.5)
+			(xy 135.89 59.69) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 26.67) (xy 167.64 26.67)
+			(xy 101.6 26.67) (xy 167.64 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 43.18) (xy 149.86 40.64)
+			(xy 104.14 40.64) (xy 104.14 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3667,7 +3677,7 @@
 	)
 	(text "VBUS is the usb power input; when it is high, disconnect VSYS to avoid back power"
 		(exclude_from_sim no)
-		(at 122.682 60.198 0)
+		(at 120.904 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4191,7 +4201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
 			(at 173.6852 50.8 0)
 			(effects
 				(font
@@ -4310,7 +4320,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 43.18 0)
+		(at 104.14 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4319,7 +4329,7 @@
 		(fields_autoplaced yes)
 		(uuid "6efa14f1-4330-4961-9250-cc9697730319")
 		(property "Reference" "#PWR02"
-			(at 149.86 49.53 0)
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 48.26 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 43.18 0)
+			(at 104.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 43.18 0)
+			(at 104.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 43.18 0)
+			(at 104.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
 			(at 176.2252 66.04 0)
 			(effects
 				(font
@@ -4604,7 +4614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 195.072 69.85 90)
 			(effects
 				(font
@@ -5104,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
 			(at 152.4 77.7748 0)
 			(effects
 				(font
@@ -5173,7 +5183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
 			(at 197.8152 81.28 0)
 			(effects
 				(font
@@ -5526,7 +5536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 155.448 74.93 90)
 			(effects
 				(font
@@ -5727,7 +5737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
 			(at 120.3452 100.33 0)
 			(effects
 				(font
@@ -5857,8 +5867,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 15.24)
-		(size 125.73 36.83)
+		(at 34.29 15.24)
+		(size 67.31 36.83)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5869,7 +5879,7 @@
 		)
 		(uuid "f5368a6c-24a6-4bb9-809a-2d3d1e4e5e51")
 		(property "Sheetname" "Power_converter"
-			(at 20.32 14.5284 0)
+			(at 34.29 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5888,7 @@
 			)
 		)
 		(property "Sheetfile" "12vTo5vRegulator.kicad_sch"
-			(at 20.32 52.6546 0)
+			(at 34.29 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +5897,7 @@
 			)
 		)
 		(pin "5VOut" input
-			(at 146.05 34.29 0)
+			(at 101.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5907,7 @@
 			(uuid "c91d1d97-a570-459b-b196-f37de94136f6")
 		)
 		(pin "Ground" input
-			(at 146.05 40.64 0)
+			(at 101.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5917,7 @@
 			(uuid "9bea4919-7c0a-4ad8-ba10-becabbf82d62")
 		)
 		(pin "VoltageIn" input
-			(at 146.05 26.67 0)
+			(at 101.6 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
