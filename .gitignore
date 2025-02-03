@@ -1,3 +1,4 @@
 *.pdf
 *.kicad_*-bak
 \#auto_saved_files\#
+*/*-backups/
