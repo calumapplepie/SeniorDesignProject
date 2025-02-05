@@ -1129,23 +1129,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "L1"
+				(at 5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "57uH"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1260,8 +1260,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 3.81 270)
+					(length 1.27) hide
 					(name "2"
 						(effects
 							(font
@@ -1270,6 +1270,114 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27) hide
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27) hide
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27) hide
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27) hide
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27) hide
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2002,6 +2110,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb335d1-41b7-453f-a9e2-79ed29d7d437")
+	)
+	(wire
+		(pts
 			(xy 60.96 60.96) (xy 57.15 60.96)
 		)
 		(stroke
@@ -2052,6 +2170,29 @@
 			(justify left)
 		)
 		(uuid "9a49b376-7ddd-4c30-ae4a-2165a84723e9")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 115.57 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6d5c2f5-237c-4995-99e7-77a53ddfe965")
+		(property "Netclass" "Power"
+			(at 116.2685 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -2111,6 +2252,24 @@
 		)
 		(pin "2"
 			(uuid "caa44492-36b3-4ce6-a331-335fa1101b58")
+		)
+		(pin "4"
+			(uuid "e2e67561-9156-4c2e-b34e-719ec4cb8a38")
+		)
+		(pin "6"
+			(uuid "257a0b70-d74e-44e5-881a-32469231d91c")
+		)
+		(pin "5"
+			(uuid "a141e0c9-3ca8-4983-920c-6f100a424ae4")
+		)
+		(pin "3"
+			(uuid "823df18e-353b-4179-a398-5a183412e744")
+		)
+		(pin "6"
+			(uuid "9f05a677-e663-445f-b58e-2e4005517eca")
+		)
+		(pin "6"
+			(uuid "ef5d16f0-67c0-40be-82eb-506be79d2f1d")
 		)
 		(instances
 			(project "Speaker"
@@ -2332,7 +2491,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.36 78.74 90)
+		(at 83.82 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2340,7 +2499,7 @@
 		(dnp no)
 		(uuid "19bc0740-8dd0-4299-8ca6-e7237535f73f")
 		(property "Reference" "TP4"
-			(at 83.058 76.454 90)
+			(at 80.518 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2507,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 83.058 76.2 90)
+			(at 80.518 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2516,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 86.36 73.66 0)
+			(at 83.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 73.66 0)
+			(at 83.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2534,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 86.36 78.74 0)
+			(at 83.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
