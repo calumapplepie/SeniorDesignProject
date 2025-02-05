@@ -985,6 +985,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LTC1655CS8_TRPBF:LTC1655CS8_TRPBF"
 			(pin_names
 				(offset 1.016)
@@ -2826,6 +2971,12 @@
 		(uuid "1a713c83-b6cd-49d8-a892-b22962308e30")
 	)
 	(junction
+		(at 104.14 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390b83ae-2fd8-4bec-9672-e487ec99bd75")
+	)
+	(junction
 		(at 167.64 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2927,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 116.84) (xy 121.92 116.84)
+			(xy 107.95 116.84) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2944,6 +3095,16 @@
 			(type default)
 		)
 		(uuid "0e59351c-69d1-418f-83b0-7eeec3cc32ca")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5a75e2-4f1a-46bb-bb53-a4fd794acbe2")
 	)
 	(wire
 		(pts
@@ -2974,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "1b3ff743-a7f9-4df8-827d-ebe4c9c9d882")
-	)
-	(wire
-		(pts
-			(xy 104.14 92.71) (xy 104.14 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d81155e-ebda-4e5f-a69e-dec7191e031f")
 	)
 	(wire
 		(pts
@@ -3077,6 +3228,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 80.01) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374b0019-5e07-4f4b-bfec-5c96a2c995de")
+	)
+	(wire
+		(pts
 			(xy 167.64 39.37) (xy 172.72 39.37)
 		)
 		(stroke
@@ -3097,6 +3258,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 90.17) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6248d1-26af-49aa-932a-52b9794e43db")
+	)
+	(wire
+		(pts
 			(xy 193.04 66.04) (xy 196.85 66.04)
 		)
 		(stroke
@@ -3104,6 +3275,16 @@
 			(type default)
 		)
 		(uuid "4abc58bb-7c1e-4803-950b-abb1c59ea136")
+	)
+	(wire
+		(pts
+			(xy 166.37 26.67) (xy 167.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553ff6b5-3cdf-456a-865c-8cc690e7a923")
 	)
 	(wire
 		(pts
@@ -3204,6 +3385,16 @@
 			(type default)
 		)
 		(uuid "7d04305f-1aab-4cfe-a1b3-435f483abd2e")
+	)
+	(wire
+		(pts
+			(xy 104.14 87.63) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d800212-7b69-4591-9c0c-2d0f35122a87")
 	)
 	(wire
 		(pts
@@ -3367,7 +3558,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 102.87) (xy 111.76 102.87)
+			(xy 101.6 102.87) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 102.87) (xy 111.76 116.84)
+			(xy 107.95 102.87) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3407,23 +3598,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 144.78 91.44)
+			(xy 144.78 78.74) (xy 144.78 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cbdcec9b-af8b-4bfa-b45a-e0bedcfc207a")
-	)
-	(wire
-		(pts
-			(xy 101.6 85.09) (xy 104.14 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde5c056-bac4-4ad1-97bc-ee5ab1677997")
 	)
 	(wire
 		(pts
@@ -3467,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 114.3 82.55)
+			(xy 101.6 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 26.67) (xy 167.64 26.67)
+			(xy 101.6 26.67) (xy 156.21 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3637,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 101.6 80.01)
+			(xy 121.92 80.01) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3797,6 +3978,73 @@
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "078419a8-e87d-4bb9-806c-89e22d022491")
+		(property "Reference" "TP101"
+			(at 124.46 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "091a0562-f5b2-4317-9c2e-0f15eac5cda9")
+		)
+		(instances
+			(project "Speaker"
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "TP101")
 					(unit 1)
 				)
 			)
@@ -4041,6 +4289,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 104.14 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad6d697-e5b4-490e-8d76-978a03431558")
+		(property "Reference" "TP102"
+			(at 109.22 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c0f681f-e3c8-452e-a8aa-d92e0d53612e")
+		)
+		(instances
+			(project "Speaker"
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "TP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 193.04 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4067,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 198.12 66.04 0)
 			(effects
 				(font
@@ -4245,7 +4560,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:LM4040LP-3")
-		(at 104.14 88.9 90)
+		(at 104.14 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4254,15 +4569,6 @@
 		(fields_autoplaced yes)
 		(uuid "69ffa865-b396-415c-8330-7a413eb46135")
 		(property "Reference" "U4"
-			(at 106.68 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LM4040LP-3"
 			(at 106.68 90.1699 90)
 			(effects
 				(font
@@ -4271,8 +4577,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "LM4040LP-3"
+			(at 106.68 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 109.22 88.9 0)
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
-			(at 104.14 88.9 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4607,7 @@
 			)
 		)
 		(property "Description" "3.000V Precision Micropower Shunt Voltage Reference, TO-92"
-			(at 104.14 88.9 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 151.13 78.74 0)
 			(effects
 				(font
@@ -4657,6 +4972,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 109.22 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "800fe760-a10b-4d04-b265-ec67e7e723f7")
+		(property "Reference" "JP103"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820a")
+		)
+		(pin "2"
+			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e5")
+		)
+		(instances
+			(project ""
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "JP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "raspberry_pi_pico_w:DMG2305UX-13")
 		(at 121.92 68.58 0)
 		(unit 1)
@@ -4816,6 +5199,74 @@
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 114.3 80.01 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85a04874-08da-456d-b699-b52f9cab56b2")
+		(property "Reference" "JP102"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820a")
+		)
+		(pin "2"
+			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e5")
+		)
+		(instances
+			(project ""
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "JP102")
 					(unit 1)
 				)
 			)
@@ -5049,7 +5500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 110.49 135.89 0)
 			(effects
 				(font
@@ -5157,6 +5608,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 144.78 85.09 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9251b4a-3627-4536-98e7-fe3cf37a564a")
+		(property "Reference" "JP101"
+			(at 146.05 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 146.05 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820a")
+		)
+		(pin "2"
+			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e5")
+		)
+		(instances
+			(project ""
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "JP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 196.85 77.47 0)
 		(unit 1)
@@ -5220,6 +5741,74 @@
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 161.29 26.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd5b3dfd-b099-4c4f-a08c-6e3ef59fc32f")
+		(property "Reference" "JP104"
+			(at 161.29 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820a")
+		)
+		(pin "2"
+			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e5")
+		)
+		(instances
+			(project ""
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "JP104")
 					(unit 1)
 				)
 			)
@@ -5906,7 +6495,7 @@
 			)
 			(uuid "c91d1d97-a570-459b-b196-f37de94136f6")
 		)
-		(pin "Ground" input
+		(pin "Ground" output
 			(at 101.6 40.64 0)
 			(effects
 				(font
