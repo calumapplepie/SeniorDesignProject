@@ -1352,14 +1352,14 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27) hide
-					(name "6"
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1370,14 +1370,14 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27) hide
-					(name "6"
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2138,6 +2138,16 @@
 		)
 		(uuid "5cc5fdef-37c4-4260-99fa-999add641e71")
 	)
+	(label "VSwitch"
+		(at 111.76 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "919a6108-3405-4824-9063-79876dc748f8")
+	)
 	(hierarchical_label "Ground"
 		(shape input)
 		(at 160.02 91.44 0)
@@ -2170,29 +2180,6 @@
 			(justify left)
 		)
 		(uuid "9a49b376-7ddd-4c30-ae4a-2165a84723e9")
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 115.57 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a6d5c2f5-237c-4995-99e7-77a53ddfe965")
-		(property "Netclass" "Power"
-			(at 116.2685 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -2265,10 +2252,10 @@
 		(pin "3"
 			(uuid "823df18e-353b-4179-a398-5a183412e744")
 		)
-		(pin "6"
+		(pin "7"
 			(uuid "9f05a677-e663-445f-b58e-2e4005517eca")
 		)
-		(pin "6"
+		(pin "8"
 			(uuid "ef5d16f0-67c0-40be-82eb-506be79d2f1d")
 		)
 		(instances

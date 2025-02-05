@@ -478,7 +478,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 20
@@ -490,7 +490,6 @@
     "net_colors": null,
     "netclass_assignments": {
       "Net-(A1-3V3_OUT)": "Power",
-      "Net-(D1-K)": "Power",
       "Net-(JP104-B)": "Power",
       "Net-(U1-BYPASS)": "Power",
       "VDD": "Power"
@@ -507,6 +506,18 @@
       {
         "netclass": "Power",
         "pattern": "/Power_converter/5VOut"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power_converter/VSwitch"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/AudioOut"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/SpeakerOut"
       }
     ]
   },

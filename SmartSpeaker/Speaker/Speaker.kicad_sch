@@ -4585,6 +4585,26 @@
 		)
 		(uuid "f9ee5f11-f2a1-46bb-b7d5-4aceee4c734f")
 	)
+	(label "SpeakerOut"
+		(at 222.25 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36a960f2-6f2b-4e4f-adb8-784521f5c432")
+	)
+	(label "AudioOut"
+		(at 181.61 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "894c776f-893a-48aa-abd0-dbd10d00ab2f")
+	)
 	(label "3V3_Out"
 		(at 125.73 92.71 0)
 		(effects
