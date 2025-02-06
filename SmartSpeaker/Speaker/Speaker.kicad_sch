@@ -3577,6 +3577,12 @@
 		(uuid "24fbaba5-0134-49f3-a70c-f6ab8b1f749f")
 	)
 	(junction
+		(at 152.4 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34514416-941c-48e5-a1d6-02cb94986703")
+	)
+	(junction
 		(at 104.14 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3599,12 +3605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "627f0c71-7bd1-40f3-a00c-10b4e8b3b16c")
-	)
-	(junction
-		(at 118.11 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6504de55-5402-4b53-893e-c2e5cf2b457c")
 	)
 	(junction
 		(at 175.26 81.28)
@@ -3683,6 +3683,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6fcb8b9-c32d-42da-af6c-1deb03b8a31c")
+	)
+	(junction
+		(at 116.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2a208d2-5d29-4c5a-b89a-4cb8c9d5a57f")
 	)
 	(junction
 		(at 219.71 80.01)
@@ -3868,7 +3874,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 106.68) (xy 118.11 138.43)
+			(xy 116.84 106.68) (xy 116.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3978,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 91.44) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cc74f4-0e4f-468b-8d1e-97500609ee42")
+	)
+	(wire
+		(pts
 			(xy 166.37 26.67) (xy 167.64 26.67)
 		)
 		(stroke
@@ -4058,6 +4074,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662ebdea-e977-402e-8fa3-c5c79d7bf5bb")
+	)
+	(wire
+		(pts
 			(xy 153.67 71.12) (xy 162.56 71.12)
 		)
 		(stroke
@@ -4095,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "6c4b1df7-2a55-484c-8dc6-0c2653f253f2")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721aadf0-f333-453f-bab7-fc6fbac2a92c")
 	)
 	(wire
 		(pts
@@ -4238,7 +4274,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 138.43) (xy 158.75 138.43)
+			(xy 116.84 138.43) (xy 158.75 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 157.48 91.44)
+			(xy 144.78 91.44) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4345,16 +4381,6 @@
 			(type default)
 		)
 		(uuid "b65f2517-ab18-4b39-8793-2221df2a93b0")
-	)
-	(wire
-		(pts
-			(xy 118.11 106.68) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7e9d85-3cdf-4ac3-bb57-433350d48d97")
 	)
 	(wire
 		(pts
@@ -4538,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 118.11 106.68)
+			(xy 114.3 106.68) (xy 116.84 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4878,7 +4904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03681054-1641-467b-8b34-7551ff34cbda")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -4979,7 +5005,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4987,16 +5013,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 121.92 111.76 0)
+		(at 152.4 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "078419a8-e87d-4bb9-806c-89e22d022491")
-		(property "Reference" "TP101"
-			(at 124.46 107.1879 0)
+		(uuid "05707daf-89ec-451b-895c-041ce8bfb7dc")
+		(property "Reference" "TP8"
+			(at 154.94 86.8679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,8 +5030,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 124.46 109.7279 0)
+		(property "Value" "DAC_Out"
+			(at 154.94 89.4079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5040,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 127 111.76 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 111.76 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5058,74 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 121.92 111.76 0)
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e86a74f0-ff90-4e38-a9ea-176293104481")
+		)
+		(instances
+			(project "Speaker"
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "078419a8-e87d-4bb9-806c-89e22d022491")
+		(property "Reference" "TP9"
+			(at 120.65 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DAC_Ref"
+			(at 120.65 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5139,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "TP101")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -5062,7 +5155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1894de1c-5dd7-449c-bb0a-b7b4b7272d86")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 125.73 156.21 0)
 			(effects
 				(font
@@ -5112,7 +5205,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5233,7 +5326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358cacff-1395-4d39-b015-a128c6354a52")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR012"
 			(at 50.8 157.48 0)
 			(effects
 				(font
@@ -5283,7 +5376,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR0101")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5299,7 +5392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "394a9099-5e53-44de-9090-9ee2ecf40f07")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -5349,7 +5442,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad6d697-e5b4-490e-8d76-978a03431558")
-		(property "Reference" "TP102"
+		(property "Reference" "TP7"
 			(at 109.22 83.8199 90)
 			(effects
 				(font
@@ -5374,7 +5467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3V_Ref"
 			(at 109.22 86.3599 90)
 			(effects
 				(font
@@ -5416,7 +5509,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "TP102")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -5441,7 +5534,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_Trim"
+		(property "Value" "Trim_Pot"
 			(at 142.24 86.3599 0)
 			(effects
 				(font
@@ -5514,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "AmpOut"
 			(at 195.58 64.0079 0)
 			(effects
 				(font
@@ -5572,7 +5665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658b0866-7900-47c8-984e-1ba4110d70ea")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 210.185 58.42 90)
 			(effects
 				(font
@@ -5624,7 +5717,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d610e1-3149-409b-b059-82c859c3791d")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 176.53 45.7199 0)
 			(effects
 				(font
@@ -5693,7 +5786,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5709,7 +5802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ffa865-b396-415c-8330-7a413eb46135")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 106.68 90.1699 90)
 			(effects
 				(font
@@ -5768,7 +5861,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efa14f1-4330-4961-9250-cc9697730319")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -5834,7 +5927,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5850,7 +5943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f965c05-f39e-4e3c-937e-8ba009932e07")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR06"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -5900,7 +5993,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR0102")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5925,7 +6018,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "AmpIn"
 			(at 158.75 83.3119 0)
 			(effects
 				(font
@@ -5983,7 +6076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70643328-6c07-42dd-9653-ba7b6631e2df")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -6033,7 +6126,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6049,7 +6142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70eb904a-6af6-4674-bb8b-5d227975fb4e")
-		(property "Reference" "J102"
+		(property "Reference" "J2"
 			(at 173.99 128.2699 0)
 			(effects
 				(font
@@ -6058,7 +6151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "Terminal_3"
 			(at 173.99 130.8099 0)
 			(effects
 				(font
@@ -6106,7 +6199,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "J102")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f8cdfe4-afb4-4dfc-ab7b-238085efba0d")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 179.07 60.9599 0)
 			(effects
 				(font
@@ -6175,7 +6268,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6261,7 +6354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "800fe760-a10b-4d04-b265-ec67e7e723f7")
-		(property "Reference" "JP103"
+		(property "Reference" "JP3"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -6269,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "Jumper_NC"
 			(at 132.08 80.01 0)
 			(effects
 				(font
@@ -6313,7 +6406,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "JP103")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6494,7 +6587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a04874-08da-456d-b699-b52f9cab56b2")
-		(property "Reference" "JP102"
+		(property "Reference" "JP2"
 			(at 114.3 74.93 0)
 			(effects
 				(font
@@ -6502,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "Jumper_NC"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -6546,7 +6639,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "JP102")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -6632,7 +6725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b71c9f6-4a05-47a2-b55f-ec89dd42c821")
-		(property "Reference" "J103"
+		(property "Reference" "J1"
 			(at 227.33 69.8499 0)
 			(effects
 				(font
@@ -6641,7 +6734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "Terminal_2"
 			(at 227.33 72.3899 0)
 			(effects
 				(font
@@ -6686,7 +6779,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "J103")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6702,7 +6795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0f51cd-fefe-4ed3-9fa7-63c71c2b439d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -6752,7 +6845,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa719cc-e634-4d4c-a0e8-7f1623d40b88")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -6818,7 +6911,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae597f83-1bda-47c1-b036-eb886d93bd22")
-		(property "Reference" "TP7"
+		(property "Reference" "TP10"
 			(at 107.188 135.89 90)
 			(effects
 				(font
@@ -6842,7 +6935,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "MicIn"
 			(at 107.188 138.43 90)
 			(effects
 				(font
@@ -6883,7 +6976,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "TP7")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -6899,7 +6992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4169302-5e89-445f-b4a3-02bcd2a4c0cd")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 148.59 71.12 90)
 			(effects
 				(font
@@ -6951,7 +7044,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd5b3dfd-b099-4c4f-a08c-6e3ef59fc32f")
-		(property "Reference" "JP104"
+		(property "Reference" "JP1"
 			(at 161.29 21.59 0)
 			(effects
 				(font
@@ -7044,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "Jumper_NC"
 			(at 161.29 24.13 0)
 			(effects
 				(font
@@ -7088,7 +7181,7 @@
 		(instances
 			(project ""
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "JP104")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7457,7 +7550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf522db-d38c-4209-b15a-eb0d4728137c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -7507,7 +7600,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7588,7 +7681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffe32695-f6c6-40f8-8dcb-78da0a031d13")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 123.19 95.2499 0)
 			(effects
 				(font
@@ -7642,7 +7735,7 @@
 		(instances
 			(project "Speaker"
 				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)

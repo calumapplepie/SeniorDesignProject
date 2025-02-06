@@ -2428,7 +2428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "24Volts"
 			(at 63.5 71.6279 0)
 			(effects
 				(font
@@ -2493,7 +2493,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "ON/~{OFF}"
 			(at 80.518 76.2 90)
 			(effects
 				(font
@@ -2560,7 +2560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Ground"
 			(at 66.04 81.7879 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "5Volts"
 			(at 153.67 76.7079 0)
 			(effects
 				(font
