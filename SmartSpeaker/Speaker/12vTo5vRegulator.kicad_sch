@@ -2216,7 +2216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/schott-corporation/67144080/251676"
 			(at 128.27 83.82 0)
 			(effects
 				(font
@@ -2362,7 +2362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN3_54-00166_TEN"
+		(property "Footprint" "BarrelJack:CONN3_54-00166_TEN"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc8c2945-16b7-4897-adc5-df5440ae04e6")
+			(uuid "cc8c2945-16b7-4897-adc5-df5440ae04e7")
 		)
 		(instances
 			(project ""
@@ -2664,7 +2664,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc8c2945-16b7-4897-adc5-df5440ae04e6")
+			(uuid "cc8c2945-16b7-4897-adc5-df5440ae04e8")
 		)
 		(instances
 			(project ""

@@ -1288,7 +1288,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Potentiometer_Trim"
+		(symbol "Device:R_Potentiometer_Trim_US"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1302,7 +1302,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Potentiometer_Trim"
+			(property "Value" "R_Potentiometer_Trim_US"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -1328,7 +1328,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Trim-potentiometer"
+			(property "Description" "Trim-potentiometer, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1355,7 +1355,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Potentiometer_Trim_0_1"
+			(symbol "R_Potentiometer_Trim_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 0.762) (xy 1.524 -0.762)
@@ -1380,11 +1404,36 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1392,7 +1441,7 @@
 					)
 				)
 			)
-			(symbol "R_Potentiometer_Trim_1_1"
+			(symbol "R_Potentiometer_Trim_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3920,6 +3969,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 78.74) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1158480e-d82a-4f98-b131-80b78411ebd3")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 160.02 78.74)
 		)
 		(stroke
@@ -3940,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 118.11) (xy 101.6 118.11)
+			(xy 105.41 118.11) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4040,7 +4099,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 124.46) (xy 104.14 124.46)
+			(xy 110.49 124.46) (xy 105.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4097,16 +4156,6 @@
 			(type default)
 		)
 		(uuid "49fbd08c-bed6-4e84-bc93-dc4a7225c229")
-	)
-	(wire
-		(pts
-			(xy 144.78 88.9) (xy 144.78 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a6248d1-26af-49aa-932a-52b9794e43db")
 	)
 	(wire
 		(pts
@@ -4360,6 +4409,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 127) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8428d6a6-516b-452f-ae58-9c4004bf6824")
+	)
+	(wire
+		(pts
 			(xy 137.16 92.71) (xy 119.38 92.71)
 		)
 		(stroke
@@ -4377,6 +4436,16 @@
 			(type default)
 		)
 		(uuid "865d035d-ac5e-4215-9739-c85972d9de85")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fa7b92-992e-4087-845d-7483cbe0259b")
 	)
 	(wire
 		(pts
@@ -4407,6 +4476,16 @@
 			(type default)
 		)
 		(uuid "87937cf9-7297-47f5-85be-8f8527e9bee4")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8892dc1f-ed57-46ed-9899-2c53dea8784e")
 	)
 	(wire
 		(pts
@@ -4490,7 +4569,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 152.4 91.44)
+			(xy 104.14 120.65) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5163354-fa1e-4bb4-8e51-2e0bef3bca6e")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4557,6 +4646,16 @@
 			(type default)
 		)
 		(uuid "b65f2517-ab18-4b39-8793-2221df2a93b0")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f416a5-7669-488c-8f0e-8dd1f902ec5d")
 	)
 	(wire
 		(pts
@@ -4780,16 +4879,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 144.78 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bc1741-d852-4ff5-9001-89ebb8c91ace")
-	)
-	(wire
-		(pts
 			(xy 135.89 59.69) (xy 121.92 59.69)
 		)
 		(stroke
@@ -4850,6 +4939,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 87.63) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4aa5fbb-64b1-472d-a7f7-d650be517121")
+	)
+	(wire
+		(pts
 			(xy 167.64 100.33) (xy 175.26 100.33)
 		)
 		(stroke
@@ -4870,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 118.11) (xy 104.14 124.46)
+			(xy 105.41 118.11) (xy 105.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5388,6 +5487,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22088a51-7cd4-4852-bd77-f34ba1f65217")
+		(property "Reference" "#PWR014"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a915709f-c7e4-4568-b276-81ff12e263f7")
+		)
+		(instances
+			(project "Speaker"
+				(path "/2bdc2aeb-60f6-455a-ba99-f41f429639a9"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Audio:LM384")
 		(at 170.18 73.66 0)
 		(unit 1)
@@ -5692,8 +5857,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 144.78 85.09 0)
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 139.7 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5702,7 +5867,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a95cd82-bb9e-4a7f-bbc3-a1044621c741")
 		(property "Reference" "RV1"
-			(at 142.24 83.8199 0)
+			(at 137.16 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5876,7 @@
 			)
 		)
 		(property "Value" "Trim_Pot"
-			(at 142.24 86.3599 0)
+			(at 137.16 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5885,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 144.78 85.09 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 85.09 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5903,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 144.78 85.09 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6004,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55f757d0-e997-47db-8555-b54ffb02327c")
 		(property "Reference" "H4"
 			(at 62.23 171.4499 0)
@@ -5851,7 +6015,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 62.23 173.9899 0)
+			(at 59.69 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -6178,7 +6342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 85.09 0)
+		(at 142.24 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6187,7 +6351,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f965c05-f39e-4e3c-937e-8ba009932e07")
 		(property "Reference" "#PWR06"
-			(at 148.59 91.44 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 90.17 0)
+			(at 142.24 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 85.09 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 85.09 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 85.09 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6462,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7712d56-500e-4f31-9ffa-09cb65b8411b")
+			(uuid "e7712d56-500e-4f31-9ffa-09cb65b8411c")
 		)
 		(instances
 			(project ""
@@ -6504,7 +6668,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "66149edf-8039-4e13-a0d9-c68c606b99b2")
+			(uuid "66149edf-8039-4e13-a0d9-c68c606b99b3")
 		)
 		(instances
 			(project ""
@@ -6941,10 +7105,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820a")
+			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820b")
 		)
 		(pin "2"
-			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e5")
+			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e6")
 		)
 		(instances
 			(project ""
@@ -7549,10 +7713,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820a")
+			(uuid "912de3cf-5634-4ae8-ab13-5cfcb3b4820c")
 		)
 		(pin "2"
-			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e5")
+			(uuid "bc34a437-e9c1-45d3-8b9a-00d33bd2b8e7")
 		)
 		(instances
 			(project ""
@@ -7972,7 +8136,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "66149edf-8039-4e13-a0d9-c68c606b99b2")
+			(uuid "66149edf-8039-4e13-a0d9-c68c606b99b4")
 		)
 		(instances
 			(project ""
@@ -7991,7 +8155,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "daf522db-d38c-4209-b15a-eb0d4728137c")
 		(property "Reference" "#PWR07"
 			(at 104.14 101.6 0)
@@ -8105,7 +8268,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "66149edf-8039-4e13-a0d9-c68c606b99b2")
+			(uuid "66149edf-8039-4e13-a0d9-c68c606b99b5")
 		)
 		(instances
 			(project ""
