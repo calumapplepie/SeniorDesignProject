@@ -34261,7 +34261,7 @@
 		)
 	)
 	(gr_text "Ground"
-		(at 120.904 39.878 90)
+		(at 110.4646 44.4754 90)
 		(layer "B.SilkS")
 		(uuid "92712c73-94ba-44f3-8bcc-8fbb48240d4e")
 		(effects
