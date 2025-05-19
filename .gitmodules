@@ -7,3 +7,6 @@
 [submodule "SmartSpeaker/Speaker/Raspberry_Pi_Pico_W_Kicad_Files"]
 	path = SmartSpeaker/Speaker/Raspberry_Pi_Pico_W_Kicad_Files
 	url = https://github.com/bdubs-astro/Raspberry_Pi_Pico_W_Kicad_Files
+[submodule "OverleafWriteup"]
+	path = OverleafWriteup
+	url = https://git@git.overleaf.com/68294b689e8d3dbef4673de4
